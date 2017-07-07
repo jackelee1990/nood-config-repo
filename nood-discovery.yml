@@ -1,6 +1,6 @@
 spring:
   profiles:
-active: development
+    active: development
 
 spring:
   profiles: development
@@ -20,4 +20,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-defaultZone: http://nood-discovery:8761/eureka/
+      defaultZone: http://nood-discovery:8761/eureka/
