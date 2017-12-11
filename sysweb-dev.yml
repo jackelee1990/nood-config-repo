@@ -1,6 +1,6 @@
 server:
   port: 8764
-  context-path: nood
+  context-path: /nood
 eureka:
   instance:
     instanceId: ${spring.cloud.client.ipAddress}:${server.port}
