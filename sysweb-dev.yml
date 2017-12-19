@@ -1,6 +1,12 @@
 server:
   port: 8764
   context-path: /nood
+##默认前缀
+spring:
+   mvc:
+     view:
+        prefix: /
+        suffix: html
 logging:
   level:
     root: INFO
