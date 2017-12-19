@@ -2,13 +2,8 @@ server:
   port: 8764
 logging:
   level:
-    root: INFO
-##默认前缀
-spring:
-  mvc:
-    view:
-      prefix: /templates/
-      suffix: .html
+    root: DEBUG
+
 eureka:
   instance:
     instanceId: ${spring.cloud.client.ipAddress}:${server.port}
