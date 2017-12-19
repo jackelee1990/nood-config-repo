@@ -6,7 +6,7 @@ spring:
    mvc:
      view:
         prefix: /
-        suffix: html
+        suffix: .html
 logging:
   level:
     root: INFO
