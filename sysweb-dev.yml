@@ -1,8 +1,6 @@
 server:
   port: 8764
-logging:
-  level:
-    root: INFO
+
 eureka:
   instance:
     instanceId: ${spring.cloud.client.ipAddress}:${server.port}
