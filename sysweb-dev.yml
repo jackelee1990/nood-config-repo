@@ -19,13 +19,12 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 spring:
   freemarker:
-    template-loader-path: classpath:/view/
     cache: false
     charset: UTF-8
     check-template-location: true
-    content-type: text/html
+    content-type: text/html; charset=utf-8
     expose-request-attributes: true
     expose-session-attributes: true
-    request-context-attribute: request
+    allow-request-override: true
     suffix: .html
 
